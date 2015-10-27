@@ -34,7 +34,7 @@ public class Lista {
 		Lista aux = inicio;
 
 		while (aux != null) {
-			System.out.println(aux.valor + " -> ");
+			System.out.print(aux.valor + " -> ");
 			aux = aux.prox;
 		}
 

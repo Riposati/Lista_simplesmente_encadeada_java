@@ -22,6 +22,8 @@ public class Main {
 		lista = lista.remover(lista, 6);
 		lista = lista.remover(lista, 7);
 		lista = lista.remover(lista, 4);
+		lista = lista.remover(lista, 3);
+		lista = lista.remover(lista, 3);
 		
 		lista.mostrar(lista);
 	}
