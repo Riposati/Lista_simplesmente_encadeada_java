@@ -5,14 +5,14 @@ public class Lista {
 	private int valor;
 	private Lista prox;
 
-	public Lista insere(Lista inicio, int valor) {
+	public static Lista insere(Lista inicio, int valor) {
 
 		Lista aux = new Lista();
 		aux.valor = valor;
 		aux.prox = null;
 
-		if (inicio.valor == 0) { // aqui é para o primeiro bloco
-
+		if (inicio==null) { // aqui é para o primeiro bloco
+			
 			inicio = aux;
 			
 		} else {
