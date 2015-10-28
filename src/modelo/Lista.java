@@ -29,7 +29,7 @@ public class Lista {
 		return inicio;
 	}
 
-	public void mostrar(Lista inicio) {
+	public static void mostrar(Lista inicio) {
 
 		Lista aux = inicio;
 
@@ -41,7 +41,7 @@ public class Lista {
 		System.out.println("\n");
 	}
 
-	public Lista remover(Lista inicio, int valor) {
+	public static Lista remover(Lista inicio, int valor) {
 
 		Lista aux = inicio;
 		Lista aux2 = null;

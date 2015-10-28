@@ -15,16 +15,16 @@ public class Main {
 		inicio = Lista.insere(inicio, 4);
 		inicio = Lista.insere(inicio, 5);
 		
-		inicio.mostrar(inicio);	
+		Lista.mostrar(inicio);	
 		
-		inicio = inicio.remover(inicio, 5);
-		inicio = inicio.remover(inicio, 1);
-		inicio = inicio.remover(inicio, 6);
-		inicio = inicio.remover(inicio, 7);
-		inicio = inicio.remover(inicio, 4);
-		inicio = inicio.remover(inicio, 3);
-		inicio = inicio.remover(inicio, 3);
+		inicio = Lista.remover(inicio, 5);
+		inicio = Lista.remover(inicio, 1);
+		inicio = Lista.remover(inicio, 6);
+		inicio = Lista.remover(inicio, 7);
+		inicio = Lista.remover(inicio, 4);
+		inicio = Lista.remover(inicio, 3);
+		inicio = Lista.remover(inicio, 3);
 		
-		inicio.mostrar(inicio);
+		Lista.mostrar(inicio);
 	}
 }
